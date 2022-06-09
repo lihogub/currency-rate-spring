@@ -100,3 +100,6 @@
 
 Находится по адресу http://localhost:8080
 
+<span>
+  <img src="https://user-images.githubusercontent.com/57266314/172878989-01f2247c-1832-41b5-a168-63c1ba512eb8.gif" width="250">
+</span>
