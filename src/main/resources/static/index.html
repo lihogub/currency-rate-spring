@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Rate Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container mx-auto" style="width: 400px; min-width: 50%; max-width: 80%;">
+            <h1>Currency Rate Service</h1>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Base currency</span>
+                <input type="text" disabled class="form-control" id="base-currency" value="LOADING...">
+            </div>
+
+            <h3>Select target currency</h3>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg" id="target-currency">
+
+            </select>
+
+            <div class="card mx-auto" style="display: block;">
+                <img src="https://media.giphy.com/media/67ThRZlYBvibtdF9JH/giphy.gif" class="card-img-top" id="status-gif" alt="gif">
+                <div class="card-body">
+                    <h4 id="status-title">Select currency!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
