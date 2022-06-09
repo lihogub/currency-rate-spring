@@ -1,0 +1,12 @@
+giphy:
+  api-url: ${GIPHY_API_URL:https://api.giphy.com/v1}
+  api-key: ${GIPHY_API_KEY:8Cj2M7PoQWMqd9XfI4j5oLtCLyKZ6e70}
+
+open-exchange:
+  api-url: ${OPEN_EXCHANGE_API_URL:https://openexchangerates.org/api}
+  app-id: ${OPEN_EXCHANGE_APP_ID:636a9a120ce04033b05dd33427f5b8dd}
+  base-currency: ${BASE_CURRENCY:USD}
+
+springdoc:
+  swagger-ui:
+    path: /api/docs
